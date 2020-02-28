@@ -26,17 +26,15 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-subtitle: Your awesome subtitle
+title: Wilfried Thomaré
+subtitle: Market Access Developer
 description: >- # this means to ignore newlines until "baseurl:"
   This is the demo site for a Jekyll theme version of
   HTML5 UP's sleek, responsive site template Prologue.
 author: Your Incredible Name
-email: your-email@example.com
+email: wilfried.thomare@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
