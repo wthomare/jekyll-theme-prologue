@@ -3,6 +3,7 @@
 ---
 @import "jekyll-theme-prologue";
 
+<style>
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -87,3 +88,5 @@
   .modal-content {
     width: 100%;
   }
+}
+</style>
