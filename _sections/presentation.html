@@ -38,15 +38,15 @@ If you are looking for my professional experiences I let you go to  my CV:</p> <
     </div>
     <div class="4u 12u$(mobile)">
       <div class="item">
-        <a href="#" class="image fit"><img id="myImg" src="{{ 'assets/images/velo.jpg' | relative_url }}" alt="Specialized Roubaix 2020" style="width:100%;max-width:300px"></a>
+        <a href="#" class="image fit"><img id="BikeImg" src="{{ 'assets/images/velo.jpg' | relative_url }}" alt="Specialized Roubaix 2020" style="width:100%;max-width:300px"></a>
         <header>
           <h3>Specialized Roubaix 2020</h3>
         </header>
       </div>
       <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic07.jpg' | relative_url }}" alt="Orci Convallis" /></a>
+        <a href="#" class="image fit"><img id="NWImg" src="{{ 'assets/images/newyork.jpg' | relative_url }}" alt="Central Park view" style="width:100%;max-width:300px"/></a>
         <header>
-          <h3>Orci Convallis</h3>
+          <h3>Central Park view</h3>
         </header>
       </div>
     </div>
@@ -64,7 +64,8 @@ If you are looking for my professional experiences I let you go to  my CV:</p> <
   var modal = document.getElementById("myModal");
 
   // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.getElementById("myImg");
+  var img = document.getElementById("BikeImg");
+  var img2 = document.getElementById("NWImg");
   var modalImg = document.getElementById("img01");
   var captionText = document.getElementById("caption");
   img.onclick = function(){
@@ -72,7 +73,11 @@ If you are looking for my professional experiences I let you go to  my CV:</p> <
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
   }
-
+  img2.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
 
