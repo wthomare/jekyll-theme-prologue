@@ -4,38 +4,11 @@ icon: fa-th
 order: 2
 ---
 
-<p>Welcome, I'm Wilfried Thomaré and I will describe myself as a mix between a week-end cycling warrior and a weekly coffe addict. I'm actually a Market Access Python developer in the New York subsidiary of the SGCIB (Société Général Corporate Investment Banking) and I lived in France, Ireland and Lithuania.
-If you are looking for my professional experiences I let you go to  my CV:</p> <a href="#CV">
+<p>Welcome, I'm Wilfried Thomaré and I will describe myself as a mix between a week-end cycling warrior and a weekly coffe addict. I'm actually a Market Access developer in New York and I lived in France, Ireland and Lithuania.
+I am also passionate about the whole world of cycling (running, travel, culture) and role playing. You will also find some of my creations here. .If you are looking for my professional experiences I let you go to  my CV:</p> <a href="#CV">
 
   <div class="row">
-    <div class="4u 12u$(mobile)">
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic02.jpg' | relative_url }}" alt="Ipsum Feugiat" /></a>
-        <header>
-          <h3>Ipsum Feugiat</h3>
-        </header>
-      </div>
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic03.jpg' | relative_url }}" alt="Rhoncus Semper" /></a>
-        <header>
-          <h3>Rhoncus Semper</h3>
-        </header>
-      </div>
-    </div>
-    <div class="4u 12u$(mobile)">
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic04.jpg' | relative_url }}" alt="Magna Nullam" /></a>
-        <header>
-          <h3>Magna Nullam</h3>
-        </header>
-      </div>
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'assets/images/pic05.jpg' | relative_url }}" alt="Natoque Vitae" /></a>
-        <header>
-          <h3>Natoque Vitae</h3>
-        </header>
-      </div>
-    </div>
+
     <div class="4u 12u$(mobile)">
       <div class="item">
         <a href="#" class="image fit"><img id="BikeImg" src="{{ 'assets/images/velo.jpg' | relative_url }}" alt="Specialized Roubaix 2020"></a>
@@ -43,13 +16,24 @@ If you are looking for my professional experiences I let you go to  my CV:</p> <
           <h3>Specialized Roubaix 2020</h3>
         </header>
       </div>
+
       <div class="item">
         <a href="#" class="image fit"><img id="NWImg" src="{{ 'assets/images/newyork.jpg' | relative_url }}" alt="Central Park view"/></a>
         <header>
           <h3>Central Park view</h3>
         </header>
       </div>
+
+      <div class="item">
+        <a href="#" class="image fit"><img id="VilImg" src="{{ 'assets/images/vilnius.jpg' | relative_url }}" alt="Vilnius view"/></a>
+        <header>
+          <h3>Central Park view</h3>
+        </header>
+      </div>
+
     </div>
+
+
   </div>
 
   <!-- The Modal -->
@@ -66,6 +50,7 @@ If you are looking for my professional experiences I let you go to  my CV:</p> <
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   var img = document.getElementById("BikeImg");
   var img2 = document.getElementById("NWImg");
+  var img" = document.getElementById("VilImg");
   var modalImg = document.getElementById("img01");
   var captionText = document.getElementById("caption");
   img.onclick = function(){
@@ -74,6 +59,11 @@ If you are looking for my professional experiences I let you go to  my CV:</p> <
     captionText.innerHTML = this.alt;
   }
   img2.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  img3.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
