@@ -29,13 +29,31 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Wilfried Thomaré
-subtitle: Market Access Developer
+subtitle: MLOps
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
-author: Your Incredible Name
+  Welcome to Wilfried's Website: MLOps Enthusiast, Cyclist, and RPG Gamer
+Dive into the multifaceted life, where technology, fitness, and fantasy converge. 
+This website is a blend of professional insights, personal passions, and the adventures that shape who I am.
+
+As an MLOps professional, I specialize in optimizing machine learning operations,
+streamlining workflows, and building scalable systems.
+In the Portfolio section, you’ll find a showcase of my work,
+from cutting-edge AI projects to cloud infrastructure designs,
+accompanied by detailed case studies and technical walkthroughs.
+
+When I'm not immersed in code, you'll catch me on the road or trail,
+pushing the limits of my enduranceas an avid cyclist.
+Explore my cycling journeys, race stories, and tips in the Cycling Adventures section.
+
+In my downtime, I dive into immersive worlds through role-playing games.
+I share my experiences, favorite games, character builds, and gaming tips on my RPG Corner blog,
+where creativity meets strategy.
+
+Feel free to explore, connect, or collaborate—whether it’s for an exciting machine learning project or swapping stories about cycling routes and gaming adventures. Let's build, ride, and play!.
+
+author: Wilfried Thomaré
 email: wilfried.thomare@gmail.com
-avatar: assets/images/avatar.png
+avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
