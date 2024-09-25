@@ -50,7 +50,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   where creativity meets strategy.
 
   Feel free to explore, connect, or collaborate—whether it’s for an exciting machine learning project or swapping stories about cycling routes and gaming adventures. Let's build, ride, and play!.
-
 author: Wilfried Thomaré
 email: wilfried.thomare@gmail.com
 avatar: assets/images/avatar.jpg
@@ -76,5 +75,6 @@ dribbble_url:
 google_analytics: UA-159339148-1
 
 # The following settings are NECESSARY for the Prologue theme to run:
-theme: jekyll-theme-prologue
+#theme: jekyll-theme-prologue
+remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
